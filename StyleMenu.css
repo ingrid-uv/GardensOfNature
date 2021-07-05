@@ -1,0 +1,57 @@
+.Header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(35, 35, 35);
+    font-family: 'Quicksand', sans-serif;
+    color: white;  
+    font-size: 20px;
+    position: relative;
+}
+
+.Title {
+    position: absolute;
+    left: calc(50% - 180px);
+    top: 30px;
+    font-size: 40px;
+    width: 360px;
+    text-align: center;
+}
+
+.MenuItem {
+    position: absolute;
+    top: 140px;
+    padding: 7px;
+    border-radius: 25px/25px;
+    height: 30px;
+    width: 140px;
+    background-color: rgba(50, 250, 50, 0.483);
+}
+
+.DropDown {
+    background-color: rgb( 120, 120, 120, 1 );
+    padding: 5px 10px;
+    border-radius: 10px/10px;
+    font-size: 15px;
+    position: relative;
+    left: -10px;
+    top: 5px;
+    display: none;
+}
+
+.MenuItem:hover .DropDown {
+    display: block;
+}
+
+.menuCenter {
+    position: absolute;
+    left: calc(50% - 400px);   
+    width: 800px;
+    height: 200px;
+}
+
+.linkText {
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+  }

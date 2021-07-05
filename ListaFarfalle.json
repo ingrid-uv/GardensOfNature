@@ -1,0 +1,239 @@
+var data = [
+	{
+        "id": "0",
+		"color": "blue",
+		"nameDeutsch": "der Himmelblaue Bläuling",
+        "scientificName": "Lysandra bellargus",
+        "picture": "Pictures/Lysandra.jpg"
+	},
+
+    { 
+        "id": "1",
+		"color": "blue",
+		"nameDeutsch": "der Geißklee-Bläuling",
+        "scientificName": "Plebejus argus",
+        "picture": "Pictures/Plebejus.jpg"
+	},
+
+    { 
+        "id": "2",
+		"color": "blue",
+		"nameDeutsch": "der Hauhechel-Bläuling",
+        "scientificName": "Polyommatus icarus",
+        "picture": "Pictures/Icarus5.jpg"
+	},
+
+    
+  { 
+        "id": "3",
+		"color": "blue",
+		"nameDeutsch": "der Silbergrüne Bläuling",
+        "scientificName": "Lysandra coridon",
+        "picture": "Pictures/Coridon.jpg"
+	},
+  
+
+    { 
+        "id": "4",
+		"color": "blue",
+		"nameDeutsch": "der Alexis-Bläuling",
+        "scientificName": "Glaucopsyche alexis",
+        "picture": "Pictures/Glaucopsyche.jpg"
+	},
+	
+	  { 
+        "id": "5",
+		"color": "blue",
+		"nameDeutsch": "Cupido",
+        "scientificName": "Everes",
+        "picture": "Pictures/Everes.jpg"
+	},
+	
+	{ 
+        "id": "6",
+		"color": "blue",
+		"nameDeutsch": "der Faulbaum-Bläuling",
+        "scientificName": "Celastrina argiolus",
+        "picture": "Pictures/Celastrina2.jpg"
+	},
+	
+	{ 
+        "id": "7",
+		"color": "brown",
+		"nameDeutsch": "der Trauermantel",
+        "scientificName": "Nymphalis antiopa",
+        "picture": "Pictures/Antiopa.jpg"
+	},
+
+	{ 
+        "id": "8",
+		"color": "brown",
+		"nameDeutsch": "das Landkärtchen",
+        "scientificName": "Araschnia levana",
+        "picture": "Pictures/Araschnia.jpg"
+	},
+	{ 
+        "id": "9",
+		"color": "brown",
+		"nameDeutsch": "das Große Ochsenauge",
+        "scientificName": "Maniola jurtina",
+        "picture": "Pictures/Maniola.jpg"
+	},
+	{ 
+        "id": "10",
+		"color": "brown",
+		"nameDeutsch": "das Waldbrettspiel",
+        "scientificName": "Pararge aegeria",
+        "picture": "Pictures/Pararge.jpg"
+	},
+    { 
+        "id": "11",
+		"color": "multicolor",
+		"nameDeutsch": "das Tagpfauenauge",
+        "scientificName": "Inachis io",
+        "picture": "Pictures/Inachis3.jpg"
+	},
+	{ 
+        "id": "12",
+		"color": "multicolor",
+		"nameDeutsch": "der Große Schillerfalter",
+        "scientificName": "Apatura iris",
+        "picture": "Pictures/Iris.jpg"
+	},
+	{ 
+        "id": "13",
+		"color": "multicolor",
+		"nameDeutsch": "der Grüne Zipfelfalter",
+        "scientificName": "Callophrys rubi",
+        "picture": "Pictures/Rubi.jpg"
+	},
+	{ 
+        "id": "14",
+		"color": "multicolor",
+		"nameDeutsch": "das Schachbrett",
+        "scientificName": "Melanargia galathea",
+        "picture": "Pictures/Melanargia.jpg"
+	},
+
+	{ 
+        "id": "15",
+		"color": "yellow",
+		"nameDeutsch": "der Schwalbenschwanz",
+        "scientificName": "Papilio machaon",
+        "picture": "Pictures/Macaone.jpg"
+	},
+	{ 
+        "id": "16",
+		"color": "yellow",
+		"nameDeutsch": "der Osterluzeifalter",
+        "scientificName": "Zerynthia polyxena",
+        "picture": "Pictures/Zerynthia.jpg"
+	},
+	{ 
+        "id": "17",
+		"color": "yellow",
+		"nameDeutsch": "der Zitronenfalter",
+        "scientificName": "Gonepteryx rhamni",
+        "picture": "Pictures/Zitronenfalter.jpg"
+	},
+
+	{ 
+        "id": "18",
+		"color": "yellow",
+		"nameDeutsch": "der Segelfalter",
+        "scientificName": "Iphiclides podalirius",
+        "picture": "Pictures/Podalirius2.jpg"
+		
+	},
+	{ 
+        "id": "19",
+		"color": "orange",
+		"nameDeutsch": "der Rote Scheckenfalter",
+        "scientificName": "Melitaea didyma",
+        "picture": "Pictures/Melitaea.jpg"
+	},
+	{ 
+        "id": "20",
+		"color": "orange",
+		"nameDeutsch": "der Skabiosen-Scheckenfalter",
+        "scientificName": "Euphydryas aurinia",
+        "picture": "Pictures/Aurinia.jpg"
+	},
+	{ 
+        "id": "21",
+		"color": "orange",
+		"nameDeutsch": "der Kleine Fuchs",
+        "scientificName": "Aglais urticae",
+        "picture": "Pictures/Urticae.jpg"
+	},
+	{ 
+        "id": "22",
+		"color": "orange",
+		"nameDeutsch": "der Saumfleck-Perlmuttfalter",
+        "scientificName": "Brenthis hecate",
+        "picture": "Pictures/Hecate.jpg"
+	},
+	{ 
+        "id": "23",
+		"color": "orange",
+		"nameDeutsch": "der Kleine Feuerfalter",
+        "scientificName": "Lycaena phlaeas",
+        "picture": "Pictures/Phlaeas.jpg"
+		
+	},
+	{ 
+        "id": "24",
+		"color": "orange",
+		"nameDeutsch": "der Wegerich-Scheckenfalter",
+        "scientificName": "Melitaea cinxia",
+        "picture": "Pictures/Cinxia2.jpg"
+		
+	},
+	{ 
+        "id": "25",
+		"color": "orange",
+		"nameDeutsch": "der Schlüsselblumen-Würfelfalter",
+        "scientificName": "Hamearis lucina",
+        "picture": "Pictures/Hamearis2.jpg"
+		
+	},
+	{ 
+        "id": "26",
+		"color": "orange",
+		"nameDeutsch": "der Distelfalter ",
+        "scientificName": "Vanessa cardui",
+        "picture": "Pictures/Cardui.jpg"
+		
+	},
+	{ 
+        "id": "27",
+		"color": "white",
+		"nameDeutsch": "der Baum-Weißling",
+        "scientificName": "Aporia crataegi",
+        "picture": "Pictures/Aporia.jpg"
+	},
+    { 
+        "id": "28",
+		"color": "white",
+		"nameDeutsch": "der Rote Apollo",
+        "scientificName": "Parnassius apollo",
+        "picture": "Pictures/Parnassius.jpg"
+	},
+	{ 
+        "id": "29",
+		"color": "white",
+		"nameDeutsch": "der Aurorafalter",
+        "scientificName": "Anthocharis cardamines",
+        "picture": "Pictures/Aurora.jpg"
+	},
+	{ 
+        "id": "30",
+		"color": "white",
+		"nameDeutsch": "der Große Kohlweißling",
+        "scientificName": "Pieris brassicae",
+        "picture": "Pictures/PierisBr.jpg"
+	},
+	
+	
+
+]

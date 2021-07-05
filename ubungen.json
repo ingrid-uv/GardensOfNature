@@ -1,0 +1,102 @@
+var ubung = [
+	{
+       
+		"nameDeutsch": "der Himmelblaue Bläuling",
+        "picture": "Pictures/Lysandra.jpg",
+		"antwort": "1"
+	},
+	{ 
+        "nameDeutsch": "das Große Ochsenauge",
+        "picture": "Pictures/Maniola.jpg",
+		"antwort": "2"
+	},	
+		{ 
+       	"nameDeutsch": "das Tagpfauenauge",
+        "picture": "Pictures/Inachis3.jpg",
+		"antwort": "3"
+	},
+	{         
+		"nameDeutsch": "der Schwalbenschwanz",
+        "picture": "Pictures/Macaone.jpg",
+		"antwort": "4"
+	},
+	{ 
+        "nameDeutsch": "der Zitronenfalter",
+        "picture": "Pictures/Zitronenfalter.jpg",
+		"antwort": "5"
+	},
+	{         
+		"nameDeutsch": "der Osterluzeifalter",
+        "picture": "Pictures/Zerynthia.jpg",
+		"antwort": "6"
+	},
+	{      
+		"nameDeutsch": "der Kleine Fuchs",
+        "picture": "Pictures/Urticae.jpg",
+		"antwort": "7"
+	},
+		{ 
+       	"nameDeutsch": "der Große Schillerfalter",
+        "picture": "Pictures/Iris.jpg",
+		"antwort": "8"
+	},
+    {        
+		"nameDeutsch": "der Rote Apollo",
+        "picture": "Pictures/Parnassius.jpg",
+		"antwort": "9"
+	}, 
+    {         
+		"nameDeutsch": "der Hauhechel-Bläuling",    
+        "picture": "Pictures/Icarus5.jpg",
+		"antwort": "10"
+	},
+
+  
+	
+
+
+   
+	
+
+	
+	
+
+	
+
+
+	
+
+
+	{ 
+        "id": "25",
+		"color": "multicolor",
+		"nameDeutsch": "der Grüne Zipfelfalter",
+        "scientificName": "Callophrys rubi",
+        "picture": "Pictures/Rubi.jpg"
+	},
+	{ 
+        "id": "26",
+		"color": "multicolor",
+		"nameDeutsch": "das Schachbrett",
+        "scientificName": "Melanargia galathea",
+        "picture": "Pictures/Melanargia.jpg"
+	},
+	{ 
+        "id": "27",
+		"color": "yellow",
+		"nameDeutsch": "der Segelfalter",
+        "scientificName": "Iphiclides podalirius",
+        "picture": "Pictures/Podalirius2.jpg"
+		
+	},
+	{ 
+        "id": "28",
+		"color": "orange",
+		"nameDeutsch": "der Kleine Feuerfalter",
+        "scientificName": "Lycaena phlaeas",
+        "picture": "Pictures/Phlaeas.jpg"
+		
+	}
+	
+
+]
