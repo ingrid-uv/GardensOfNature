@@ -28,7 +28,7 @@
 }
 
 .DropDown {
-    background-color: rgb( 120, 120, 120, 1 );
+    background-color: rgb(162, 231, 195);
     padding: 5px 10px;
     border-radius: 10px/10px;
     font-size: 15px;
@@ -36,6 +36,7 @@
     left: -10px;
     top: 5px;
     display: none;
+    z-index: 1;
 }
 
 .MenuItem:hover .DropDown {
@@ -50,7 +51,7 @@
 }
 
 .linkText {
-    color: white;
+    color: black;
     padding: 10px 5px;
     text-decoration: none;
     display: block;

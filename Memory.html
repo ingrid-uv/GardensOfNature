@@ -1,0 +1,209 @@
+<html lang="en">
+
+<head>
+    <title>Memory</title>
+    <meta charset="utf-8">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="StyleMenu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bodyHome">
+
+    <div class="Header">
+        <div class="Title">
+            Gardens of Nature
+        </div>
+        <div class="menuCenter">
+            <div class="MenuItem" style="left: 0px; width: 110; text-align: center;">
+                Home
+            </div>
+            <div class="MenuItem" style="left: 175px; background: none;">
+                Klassifizierungsschlüssel
+                <div class="DropDown">
+                    <a class="linkText" href="NachFarbe.html">Nach Farbe</a><br>
+                    <a class="linkText" href="#">Link 2</a><br>
+                    <a class="linkText" href="#">Link 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 450px; background: none;">
+                Grundschulkinder
+                <div class="DropDown">
+                    <a class="linkText" href="Ubung1.html">Übung 1</a><br>
+                    <a class="linkText" href="Ubung2.html">Übung 2</a><br>
+                    <a class="linkText" href="#">Übung 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 645px; background: none;">
+                Spiele
+                <div class="DropDown">
+                    <a class="linkText" href="Memory.html">Memory</a><br>
+                    <a class="linkText" href="Puzzle.html">Puzzle</a><br>
+                    <a class="linkText" href="TicTacToe.html">TicTacToe</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="notFooter">
+        <div class="card5">
+            <div class="allPictures">
+                <img class="imgMemory" id="img0" src="PicturesMemory/Memory.jpg" onclick="turnCard(1)">
+                <img class="imgMemory" id="img1" src="PicturesMemory/Memory.jpg" onclick="turnCard(2)">
+                <img class="imgMemory" id="img2" src="PicturesMemory/Memory.jpg" onclick="turnCard(3)">
+                <img class="imgMemory" id="img3" src="PicturesMemory/Memory.jpg" onclick="turnCard(4)">
+                <img class="imgMemory" id="img4" src="PicturesMemory/Memory.jpg" onclick="turnCard(5)">
+                <img class="imgMemory" id="img5" src="PicturesMemory/Memory.jpg" onclick="turnCard(6)">
+                <img class="imgMemory" id="img6" src="PicturesMemory/Memory.jpg" onclick="turnCard(7)">
+                <img class="imgMemory" id="img7" src="PicturesMemory/Memory.jpg" onclick="turnCard(8)">
+                <img class="imgMemory" id="img8" src="PicturesMemory/Memory.jpg" onclick="turnCard(9)">
+                <img class="imgMemory" id="img9" src="PicturesMemory/Memory.jpg" onclick="turnCard(10)">
+                <img class="imgMemory" id="img10" src="PicturesMemory/Memory.jpg" onclick="turnCard(11)">
+                <img class="imgMemory" id="img11" src="PicturesMemory/Memory.jpg" onclick="turnCard(12)">
+                <img class="imgMemory" id="img12" src="PicturesMemory/Memory.jpg" onclick="turnCard(13)">
+                <img class="imgMemory" id="img13" src="PicturesMemory/Memory.jpg" onclick="turnCard(14)">
+                <img class="imgMemory" id="img14" src="PicturesMemory/Memory.jpg" onclick="turnCard(15)">
+                <img class="imgMemory" id="img15" src="PicturesMemory/Memory.jpg" onclick="turnCard(16)">
+                <img class="imgMemory" id="img16" src="PicturesMemory/Memory.jpg" onclick="turnCard(17)">
+                <img class="imgMemory" id="img17" src="PicturesMemory/Memory.jpg" onclick="turnCard(18)">
+                <img class="imgMemory" id="img18" src="PicturesMemory/Memory.jpg" onclick="turnCard(19)">
+                <img class="imgMemory" id="img19" src="PicturesMemory/Memory.jpg" onclick="turnCard(20)">
+                <img class="imgMemory" id="img20" src="PicturesMemory/Memory.jpg" onclick="turnCard(21)">
+                <img class="imgMemory" id="img21" src="PicturesMemory/Memory.jpg" onclick="turnCard(22)">
+                <img class="imgMemory" id="img22" src="PicturesMemory/Memory.jpg" onclick="turnCard(23)">
+                <img class="imgMemory" id="img23" src="PicturesMemory/Memory.jpg" onclick="turnCard(24)">
+                <div class="twoButtons">
+                    <button class="butt2" id="mix">Vermischen</button>
+                    <button class="butt2" id="change">Verändern</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="imgHome" src="Pictures/Background2.jpg">
+        </div>
+
+    </div>
+
+    <footer>
+        <h2>Gardens of Nature</h2>
+        <p>Autor: Ingrid Ugussi Vukman</p>
+        <p>E-Mail: ingrid_ugussi_vukman@yahoo</p>
+    </footer>
+
+    <script src="Memory.json"></script>
+    <script>
+        var numCards = 0;
+        var selectedCards = [];
+        var selectedPictures = [];
+        var matchedPictures = [];
+        var completedCards = [];
+
+        function turnCard(targetCard) {
+
+            numCards++;
+
+            selectedCards.push(targetCard);
+            console.log("Target card is: " + targetCard);
+
+            if (numCards == 2 && selectedCards[1] == selectedCards[0]) {
+                alert("You already selected this card!");
+                numCards--;
+                selectedCards.pop();
+                return;
+            }
+
+            for (var j = 0; j <= completedCards.length; j++) {
+                if (completedCards[j] + 1 == targetCard) {
+                    alert("Already solved card")
+                    return;
+                }
+            }
+
+            for (var i = 0; i < memory.length; i++) {
+
+                if (memory[i].id == targetCard) {
+                    document.getElementById("img" + i).src = memory[i].picture;
+                    selectedPictures.push(memory[i].picture)
+                    matchedPictures.push(i)
+                    if (numCards == 2) {
+                        setTimeout(turnCards, 500);
+                    }
+                }
+            }
+        }
+
+        function turnCards() {
+        
+            if (selectedPictures[0] == selectedPictures[1]) {
+                alert("Matched cards!")
+                turnMatched(matchedPictures[0], matchedPictures[1])
+            } else {
+                document.getElementById("img" + matchedPictures[0]).src = "PicturesMemory/Memory.jpg";
+                document.getElementById("img" + matchedPictures[1]).src = "PicturesMemory/Memory.jpg";
+                matchedPictures = []
+            }
+
+            numCards = 0;
+            selectedPictures = [];
+            selectedCards = [];
+
+            console.log("Completed cards are: " + completedCards)
+
+        }
+
+        function turnMatched(index0, index1) {
+            completedCards.push(index0)
+            completedCards.push(index1)
+            document.getElementById("img" + index0).src = "PicturesMemory/Memorybw.jpg";
+            document.getElementById("img" + index1).src = "PicturesMemory/Memorybw.jpg";
+            matchedPictures = []
+
+        }
+
+        window.onscroll = function () { myFunction() };
+
+        // var navbar = document.getElementById("navbar");
+        // var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+        document.getElementById("mix").onclick = mixCards;
+        document.getElementById("change").onclick = changeCards;
+
+        function changeCards() {
+            for (let k = 0; k < 100; k++) {
+                i = Math.round(Math.random() * 23);
+                j = Math.round(Math.random() * 23);
+                x = memory[i].picture;
+                memory[i].picture = memory[j].picture;
+                memory[j].picture = x;
+            }
+            mixCards();
+
+        }
+
+
+        function mixCards() {
+            for (let index1 = 0; index1 <= 23; index1++) {
+
+                // document.getElementById("img" + index1).src = memory[index1].picture;
+                document.getElementById("img" + index1).src = "PicturesMemory/Memory.jpg";
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

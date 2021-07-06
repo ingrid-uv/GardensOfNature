@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+    <title>Übung 2</title>
+    <meta charset="utf-8">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="StyleMenu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bodyHome">
+
+    <div class="Header">
+        <div class="Title">
+            Gardens of Nature
+        </div>
+        <div class="menuCenter">
+            <div class="MenuItem" style="left: 0px; width: 110; text-align: center;">                
+                <a href="Home.html" style="text-decoration: none; color: white">Home</a>
+            </div>
+            <div class="MenuItem" style="left: 175px; background: none;">
+                Klassifizierungsschlüssel
+                <div class="DropDown">
+                    <a class="linkText" href="NachFarbe.html">Nach Farbe</a><br>
+                    <a class="linkText" href="#">Link 2</a><br>
+                    <a class="linkText" href="#">Link 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 450px; background: none;">
+                Grundschulkinder
+                <div class="DropDown">
+                    <a class="linkText" href="Ubung1.html">Übung 1</a><br>
+                    <a class="linkText" href="Ubung2.html">Übung 2</a><br>
+                    <a class="linkText" href="#">Übung 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 645px; background: none;">
+                Spiele
+                <div class="DropDown">
+                    <a class="linkText" href="Memory.html">Memory</a><br>
+                    <a class="linkText" href="Puzzle.html">Puzzle</a><br>
+                    <a class="linkText" href="TicTacToe.html">TicTacToe</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="notFooter">
+        <div class="card5">
+            <div class="antwortenUbung2">
+                <div class="ubung2">
+                    <img id="img0" class="imgUbung2" src="Pictures/Zygaena.jpg">
+                    <div class="box1">1</div>
+                </div>
+                <div class="ubung2">
+                    <img id="img1" class="imgUbung2" src="Pictures/Cardui.jpg">
+                    <div class="box1">2</div>
+                </div>
+
+                <div class="ubung2">
+                    <img id="img2" class="imgUbung2" src="Pictures/Inachis3.jpg">
+                    <div class="box1">3</div>
+                </div>
+                <div class="ubung2">
+                    <img id="img3" class="imgUbung2" src="Pictures/Macaone.jpg">
+                    <div class="box1">4</div>
+                </div>
+                <div class="ubung2">
+                    <img id="img4" class="imgUbung2" src="Pictures/Tyria.jpg">
+                    <div class="box1">5</div>
+                </div>
+                <div class="ubung2">
+                    <img id="img5" class="imgUbung2" src="Pictures/Saturnia.jpg">
+                    <div class="box1">6</div>
+                </div>
+            </div>
+
+            <h2 style = "position: relative; left: 50px">Finde den passenden Raupen</h2>
+
+            <div class="antwortenUbung2">
+                <div class="ubung2">
+                    <img id="img0" class="imgUbung2" src="Pictures/Bruco1.jpg">
+                    <input id="a0" class="box1">
+
+                </div>
+                <div class="ubung2">
+                    <img id="img1" class="imgUbung2" src="Pictures/Bruco6.jpg">
+                    <input id="a1" class="box1">
+                </div>
+                <div class="ubung2">
+                    <img id="img2" class="imgUbung2" src="Pictures/Bruco5.jpg">
+                    <input id="a2" class="box1">
+                </div>
+                <div class="ubung2">
+                    <img id="img3" class="imgUbung2" src="Pictures/InachisBruco.jpg">
+                    <input id="a3" class="box1">
+                </div>
+                <div class="ubung2">
+                    <img id="img4" class="imgUbung2" src="Pictures/CarduiBruco.jpg">
+                    <input id="a4" class="box1">
+                </div>
+                <div class="ubung2">
+                    <img id="img5" class="imgUbung2" src="Pictures/ZygaenaBruco.jpg">
+                    <input id="a5" class="box1">
+                </div>
+            </div>
+            <div class="twoButtons">
+                <button class="butt2" id="hinzufugen">Hinzufügen</button>
+            </div>
+        </div>
+        <div style="position:relative">
+            <img class="imgHome" src="Pictures/Background2.jpg">
+        </div>
+    </div>
+    <footer>
+        <h2>Gardens of Nature</h2>
+        <p>Autor: Ingrid Ugussi Vukman</p>
+        <p>E-Mail: ingrid_ugussi_vukman@yahoo</p>
+    </footer>
+
+    <script src="ubungen.json"></script>
+    <script>
+        document.getElementById("hinzufugen").onclick = checkAnswers;
+        var risposte = [5, 4, 6, 3, 2, 1];
+        var contaEsatte = 0;
+
+        function checkAnswers() {
+
+            for (let i = 0; i < risposte.length; i++) {
+                var myElement = document.getElementById("a" + i);
+                console.log(myElement.value);
+
+                if (myElement.value == risposte[i]) {
+                    contaEsatte++;
+                }
+
+                if (contaEsatte == 6) {
+                    alert("Brava, hai fatto tutto giusto!");
+                }
+            }
+
+            alert("Hai fatto " + contaEsatte + " risposte esatte!");
+            contaEsatte = 0;
+        }
+
+
+    </script>
+</body>
+
+</html>

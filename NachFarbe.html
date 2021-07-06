@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <title>Klassifizierung nach Farbe</title>
+    <meta charset="utf-8">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="StyleMenu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bodyHome">
+
+    <div class="Header">
+        <div class="Title">
+            Gardens of Nature
+        </div>
+        <div class="menuCenter">
+            <div class="MenuItem" style="left: 0px; width: 110; text-align: center;">                
+                <a href="Home.html" style="text-decoration: none; color: white">Home</a>              
+            </div>
+            <div class="MenuItem" style="left: 175px; background: none;">
+                Klassifizierungsschlüssel
+                <div class="DropDown">
+                    <a class="linkText" href="NachFarbe.html">Nach Farbe</a><br>
+                    <a class="linkText" href="#">Link 2</a><br>
+                    <a class="linkText" href="#">Link 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 450px; background: none;">
+                Grundschulkinder
+                <div class="DropDown">
+                    <a class="linkText" href="Ubung1.html">Übung 1</a><br>
+                    <a class="linkText" href="Ubung2.html">Übung 2</a><br>
+                    <a class="linkText" href="#">Übung 3</a><br>
+                </div>
+            </div>
+            <div class="MenuItem" style="left: 645px; background: none;">
+                Spiele
+                <div class="DropDown">
+                    <a class="linkText" href="Memory.html">Memory</a><br>
+                    <a class="linkText" href="Puzzle.html">Puzzle</a><br>
+                    <a class="linkText" href="TicTacToe.html">TicTacToe</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="notFooter">
+        <div class="card4">
+            <div class="allPictures">
+                <div class="responsive">
+                    <div id="frame0" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link0">
+                            <img id="img0" src="Pictures/Lysandra.jpg">
+                        </a>
+                        <button id="text0" class="butt1" onclick="selectColor('blue')">BLAUE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame1" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link1">
+                            <img id="img1" src="Pictures/Maniola.jpg">
+                        </a>
+                        <button id="text1" class="butt1" onclick="selectColor('brown')">BRAUNE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame2" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link2">
+                            <img id="img2" src="Pictures/Inachis3.jpg">
+                        </a>
+                        <button id="text2" class="butt1" onclick="selectColor('multicolor')">BUNTE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame3" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link3">
+                            <img id="img3" src="Pictures/Macaone.jpg">
+                        </a>
+                        <button id="text3" class="butt1" onclick="selectColor('yellow')">GELBE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame4" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link4">
+                            <img id="img4" src="Pictures/Melitaea.jpg">
+                        </a>
+                        <button id="text4" class="butt1" onclick="selectColor('yellow')">ORANGE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame5" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link5">
+                            <img id="img5" src="Pictures/Parnassius.jpg">
+                        </a>
+                        <button id="text5" class="butt1" onclick="selectColor('orange')">WEISSE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame6" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link6">
+                            <img id="img6" src="Pictures/Parnassius.jpg">
+                        </a>
+                        <button id="text6" class="butt1" onclick="selectColor('white')">WEISSE GRUPPE</button>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div id="frame7" class="gallery">
+                        <a target="_blank" href="Gruppe.html" id="link7">
+                            <img id="img7" src="Pictures/Parnassius.jpg">
+                        </a>
+                        <button id="text7" class="butt1" onclick="selectColor('white')">WEISSE GRUPPE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img class="imgHome" src="Pictures/Background2.jpg">
+        </div>
+    </div>
+
+    <footer>
+        <h2>Gardens of Nature</h2>
+        <p>Autor: Ingrid Ugussi Vukman</p>
+        <p>E-Mail: ingrid_ugussi_vukman@yahoo</p>
+    </footer>
+
+    <script src="ListaFarfalle.json"></script>
+    <script>
+
+        document.getElementById("frame5").style.display = "none"
+        document.getElementById("frame6").style.display = "none"
+        document.getElementById("frame7").style.display = "none"
+
+        function selectColor(colorTarget) {
+
+            document.getElementById("frame5").style.display = "block"
+            document.getElementById("frame6").style.display = "block"
+            document.getElementById("frame7").style.display = "block"
+
+            console.log(data[0].nameDeutsch)
+
+            var j = 0;
+
+            for (var i = 0; i < data.length; i++) {
+
+                if (data[i].color == colorTarget) {
+
+                    console.log("Trovato! Adesso metto" + data[i].nameDeutsch + " con link con i " + i)
+
+                    document.getElementById("img" + j).src = data[i].picture;
+                    document.getElementById("text" + j).innerHTML = data[i].nameDeutsch;
+                    document.getElementById("link" + j).href = "Gruppe.html?i=" + data[i].id;
+                    j++;
+                }
+
+            }
+
+            for (; j < 8; j++) {
+                console.log("Ora j e' " + j)
+                document.getElementById("frame" + j).style.display = "none";
+                console.log("Finito!")
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
