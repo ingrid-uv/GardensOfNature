@@ -4,7 +4,7 @@
     <title>Butterflies & Co.</title>
     <meta charset="utf-8">
     <link href="Style.css" rel="stylesheet" type="text/css" />
-    <link href="StyleMenu.css" rel="stylesheet">
+    <link href="StyleMenuResponsive.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap" rel="stylesheet">
@@ -58,9 +58,8 @@
         <div class="card3">
 
             <div class="doubleDiv1">
-                <p id="text1">"The Earth has music <br>
-                    for those who listen." <br></p>
-                    <p id="text2" style="font-size: 22px;"><i>George Santayana</i></p>
+                <p>"The Earth has music <br>
+                    for those who listen."</p>
             </div>
             <div class="doubleDiv2">
                 <img class="imgHome2" src="Pictures/Icarus1.jpg">
@@ -78,18 +77,3 @@
         <p>Autor: Ingrid Ugussi Vukman</p>
         <p>E-Mail: ingrid_ugussi_vukman@yahoo</p>
     </footer>
-
-    <script src="Quotes.json"></script>
-    <Script>
-        function changeText(){
-
-            var i = Math.round(Math.random()*3);
-
-            document.getElementById("text1").innerHTML = quote[i].text;
-            document.getElementById("text2").innerHTML = quote[i].autor;
-
-        }
-
-        setInterval(changeText, 4000);
-    </Script>
-</body>

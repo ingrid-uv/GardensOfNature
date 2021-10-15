@@ -65,19 +65,13 @@
                 <div class="description_1">
                     <div class="gallery2">
                         <img class="imgDescription_1" id="img0" src="Pictures/Lysandra.jpg">
-                        <div id="text1" class="desc">Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten
-                            haben
-                            eine
-                            intensiv
-                            blaue Farbe.</div>
+                        <div id="text1" class="desc"></div>
                     </div>
                 </div>
                 <div class="description_1">
                     <div class="gallery2">
                         <img class="imgDescription_1" id="img1" src="Pictures/LysandraFemmina.jpg">
-                        <div id="text2" class="desc">Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und
-                            orangefarbenen
-                            Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden.</div>
+                        <div id="text2" class="desc"></div>
                     </div>
                 </div>
                 <div class="card2">
@@ -102,12 +96,11 @@
     <script>
 
 
-        var i = 4;
+        var i = 5;
 
         function updatePage() {
 
-            console.log(description[i].nameDeutsch)
-            console.log(document.getElementById("mainTitel").innerHTML)
+            console.log(description[i].nameDeutsch)           
 
             document.getElementById("mainTitel").innerHTML = description[i].nameDeutsch
             document.getElementById("fam").innerHTML = description[i].familie
@@ -126,8 +119,8 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         i = urlParams.get('i')
-        console.log(i);
-        console.log(queryString);
+        console.log("i = " +i);
+        console.log("queryString = " +queryString);
         updatePage();
 
     </script>

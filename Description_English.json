@@ -1,23 +1,23 @@
-var description = [
+cription = [
 	{
         "color": "blue",
 		"nameDeutsch": "Der Himmelblaue Bläuling",
-        "scientificName": "<i>Lysandra bellargus</i>",
+        "scientificName": "Lysandra bellargus",
         "picture1": "Pictures/Lysandra.jpg",
 		"picture2": "Pictures/LysandraFemmina.jpg",
         "familie": "Blaulinge",
         "flugelspanne": "30-40 mm",
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Europa, Turkäei, Iran, Iraq, Caucasus, Transcaucasus",   
-		"lebensweise":  "1. Eier werden auf Blätter von <i>Hippocrepis</i> und <i>Coronilla</i>gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Männliches Exemplar von <i>Lysandra bellargus</i>: Die Flügeloberseiten haben eine intensiv blaue Farbe. Foto von Ingrid Ugussi Vukman",
-        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden. Foto von <a href='https://de.dreamstime.com/lizenzfreie-stockbilder-lysandra-bellargus-image532679'>Gumenuk Vitalij</a>."	
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 	
 	{ 
         "color": "blue",
 		"nameDeutsch": "Der Geißklee-Bläuling",
-        "scientificName": "<i>Plebejus argus</i>",
+        "scientificName": "Plebejus argus",
         "picture1": "Pictures/Plebejus.jpg", 
 		"picture2": "Pictures/Plebejus2.jpg",
 		"familie": "Blaulinge",
@@ -25,14 +25,14 @@ var description = [
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Von Nord- und Ost-Spanien bis nach Skandinavien, Balkans, Griechenland und im europäischen Teil der Türkei.",  
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Männliches Exemplar von <i>Plebejus argus</i>. Die Flügeloberseiten zeigen ein kräftiges, leicht violettes Blau. Foto von Ingrid Ugussi Vukman",
-        "picture2text": "Ein Weibchen. Die Unterseiten beider Geschlechter sind sehr ähnlich: Taupebraun, mit schwarzen Flecken mit silber-blau-grünen Pupillen entlang der Flügelkante. Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 
     { 
         "color": "blue",
 		"nameDeutsch": "Der Hauhechel-Bläuling",
-        "scientificName": "<i>Polyommatus icarus</i>",
+        "scientificName": "Polyommatus icarus",
         "picture1": "Pictures/Icarus5.jpg", 
 		"picture2": "Pictures/Icarus2.jpg",
 		"familie": "Blaulinge",
@@ -40,14 +40,14 @@ var description = [
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Männliches Exemplar von <i>Polyommatus icarus</i>: Die Flügeloberseiten haben eine intensiv blaue Farbe. Foto von <a href='https://de.dreamstime.com/spionkop33_info'>Spionkop33</a>",
-        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden. Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 	
 	{
         "color": "blue",
 		"nameDeutsch": "Der Silbergrüne Bläuling",
-        "scientificName": "<i>Lysandra coridon</i>",
+        "scientificName": "Lysandra coridon",
         "picture1": "Pictures/Coridon.jpg",
 		"picture2": "Pictures/Coridon2.jpg",
         "familie": "Blaulinge",
@@ -55,195 +55,195 @@ var description = [
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Europa, Turkäei, Iran, Iraq, Caucasus, Transcaucasus",   
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Die Flügeloberseite des Männchens ist leicht silbrig bis grünblau gefärbt und am Flügelrand dunkel. Foto von <a href='https://de.dreamstime.com/stockfoto-makro-eines-schmetterlinges-lysandra-coridon-image84033590'>Jacques Vanni</a>",
-        "picture2text": "Die Unterseite der Flügel ist beim Männchen hellgrau braun, beim Weibchen dunkelbraun. Die Flügelbasis schimmert schwach türkisblau. Foto von <a href='https://de.dreamstime.com/chalkhill-blaues-schmetterlinge-lysandra-coridon-auf-einer-blume-mann-und-frau-des-blue-schmetterling-w%C3%A4hrend-der-werben-image188132295'>Ullrich Gnoth</a>.",	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 	
 	{ 
         "color": "blue",
 		"nameDeutsch": "Der Alexis-Bläuling",
-        "scientificName": "<i>Glaucopsyche alexis</i>",
+        "scientificName": "Glaucopsyche alexis",
         "picture1": "Pictures/Glaucopsyche.jpg", 
 		"picture2": "Pictures/Alexis1.jpg",
 		"familie": "Blaulinge",
         "flugelspanne": "20-30 mm",
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Von Nord- und Ost-Spanien bis nach Skandinavien, Balkans, Griechenland und im europäischen Teil der Türkei.",  
-		"lebensweise":  "1. Eier werden auf Blätter von <i>Hippocrepis</i> und <i>Coronilla</i> gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Alexis-Bläuling, Männchen. Die Flügeloberseiten der Männchen sind blau gefärbt und besitzen einen schwarzen, weiß gesäumten Rand. Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Die Unterseite der Flügel der Männchen ist grau mit einer breiten metallisch grünen Bestäubung  auf den Hinterflügeln. Foto von Ingrid Ugussi Vukman."	
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
     { 
         "color": "blue",
-		"nameDeutsch": "Südlicher Kurzgeschwänzter Bläuling",
-        "scientificName": "<i>Cupido alcetas</i>",
+		"nameDeutsch": "Cupido",
+        "scientificName": "Everes alcetas",
         "picture1": "Pictures/Everes.jpg", 
-		"picture2": "Pictures/Everes2.jpg",
+		"picture2": "Pictures/Everes.jpg",
 		"familie": "Blaulinge",
         "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Flügelunterseite eines Paares von <i>Cupido alcetas</i>. Die Unterseiten von Vorder- und Hinterflügeln haben bei beiden Geschlechtern eine grauweiße Farbe, von der sich viele kleine schwarze Flecke abheben.",
-        "picture2text": "In diesem Bild ist der obere Teil der Flügel des Männchens mit seiner blau-violetten Farbe und den schwarzen Rändern zu sehen. Fotos von Ingrid Ugussi Vukman"	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "blue",
 		"nameDeutsch": "Der Faulbaum-Bläuling",
-        "scientificName": "<i>Celastrina argiolus</i>",
-        "picture1": "Pictures/Celastrina1.jpg", 
+        "scientificName": "Celastrina argiolus",
+        "picture1": "Pictures/Celastrina2.jpg", 
 		"picture2": "Pictures/Celastrina3.jpg",
 		"familie": "Blaulinge",
         "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
-	"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Beide Geschlechter haben weiß-blaue Flügelunteseite und zeigen eine unauffällige schwarze Zeichnung. Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Flügel eines Weibchens. Die oberen Flügel beider Geschlechter sind blau, bei den Weibchen sind die Ränder schwarz. Foto von Ingrid Ugussi Vukman."	
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{
         "color": "brown",
 		"nameDeutsch": "Der Trauermantel",
-        "scientificName": "<i>Nymphalis antiopa</i>",
+        "scientificName": "Nymphalis antiopa",
         "picture1": "Pictures/Antiopa.jpg",
-		"picture2": "Pictures/Antiopa2.jpg",
-        "familie": "Edelfalter",
+		"picture2": "Pictures/Antiopa.jpg",
+        "familie": "Edelfalter (Nymphalidae)",
         "flugelspanne": "30-40 mm",
-        "flugezeit": "VIII - VI, eine generation",
-        "verbreitung": "Europa (außer im Nordwesten Skandinaviens und dem äußersten Norden)  und Asien (östlich bis Japan). ",   
-	"lebensweise":  "1. Eier werden in Gruppen (100-200 Stück) in dicken Ringen an dünnen Zweigen der Futterpflanzen gelegt.</br> 2. Die daraus schlüpfenden Raupen leben gemeinschaftlich. </br> 3. Die ausgewachsen Raupen suchen einen geeigneten Platz zur Verpuppung (Felsen, Mauern und an Sträuchern).</br>",
-        "picture1text": "Trauermantel (<i>Nymphalis antiopa</i>). Die Oberseite der Flügel ist dunkelbraunviolett gefärbt. Der Rand ist cremefarbig;  hinter dem gelben Rand ist ein schwarzer Rand mit zahlreiche aneinandergereihte blaue Flecken. <a href='https://de.dreamstime.com/camberwell-sch%C3%B6nheitsschmetterling-sch%C3%B6nheits-oder-trauer-mantel-nymphalis-antiopa-schmetterling-im-ruhezustand-auf-image139472691'>Mark95m</a>",
-        "picture2text": "Die Flügelunterseite hat graue Streifen mit den gleichen cremfarbigen Rändern. Foto von <a href='https://de.dreamstime.com/trauermantel-nymphalis-antiopa-ein-trinkt-nektar-von-einer-distelblume-auch-eine-camberwell-sch%C3%B6nheit-taylor-nebenflusspark-image191981684'>Paul Reeves</a>"	
+        "flugezeit": "V-VI, VII-IX",
+        "verbreitung": "Europa, Turkäei, Iran, Iraq, Caucasus, Transcaucasus",   
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 	
 	{ 
         "color": "brown",
 		"nameDeutsch": "Das Landkärtchen",
-        "scientificName": "<i>Araschnia levana</i>",
+        "scientificName": "Araschnia levana",
         "picture1": "Pictures/Araschnia.jpg", 
 		"picture2": "Pictures/Araschnia2.jpg",
-		"familie": "Edelfalter",
-        "flugelspanne": "32-38 mm Männchen, 38-43 Weibchen",
-        "flugezeit": "IV-VI, VII-VIII",
-        "verbreitung": "Von  Spanien über Mittel- und Nordeuropa durch Mittelasien bis nach Korea und Japan",  
-	"lebensweise":  "1. Die Eier in Form einzelner kleiner Säulchen mit bis zu 10 Eiern an die Unterseite der Futterpflanze geklebt.</br> 2. Die Raupen leben zunächst gesellig und verteilen sich mit steigendem Futterbedarf immer mehr.  </br> 3. Die verpuppungsreifen Raupen suchen sich eine geeignete Stelle zur Verpuppung und befestigen dort ein kleines Polster aus Spinnfäden.</br> 4.  Die Herbstpuppen überwintern und liefern dann die Falter der Frühlingsgeneration.</br>",
-        "picture1text": "Landkärtchen, Sommergeneration. Die Flügeloberseite hat eine schwarzbraune bis schwarzeGrundfarbe. Auf den Hinterflügeln befindet sich ein cremefarbenes, unterbrochenes Band. ",
-        "picture2text": "In diesem Bild sind die Unterseitenflügel zu sehen: Sie sind den oberen Seitenflügeln sehr ähnlich. Fotos von Ingrid Ugussi Vukman."	
+		"familie": "Blaulinge",
+        "flugelspanne": "20-30 mm",
+        "flugezeit": "V-VI, VII-IX",
+        "verbreitung": "Von Nord- und Ost-Spanien bis nach Skandinavien, Balkans, Griechenland und im europäischen Teil der Türkei.",  
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
     { 
         "color": "brown",
 		"nameDeutsch": "Das Große Ochsenauge",
-        "scientificName": "<i>Maniola jurtina",
+        "scientificName": "Maniola jurtina",
         "picture1": "Pictures/Maniola.jpg", 
 		"picture2": "Pictures/Maniola2.jpg",
-		"familie": "Edelfalter",
-        "flugelspanne": "40-48 mm",
-        "flugezeit": "VI-IX",
-        "verbreitung": "Von den Kanaren, über Nordafrika und ganz Europa, außer dem hohen Norden und Asien (Kleinasien bis Westen Sibiriens)",
-	"lebensweise":  "1. Die Eier werden einzeln in Bodennähe oder auf verwelkte Futterpflanzen gelegt.</br> 2. Junge Raupen überwintern und sind an frostfreien Tagen aktiv. </br> 3. Sie verpuppen sich knapp über dem Boden an einem trockenen Stängel.</br>",
-        "picture1text": "Flügeloberseiten eines Weibchens. Die Männchen haben fast einfarbig dunkelbraun gefärbte Flügeloberseiten, während beim Weibchen ein ausgedehnter Fleck vorhanden ist, der die gesamte Mitte der Vorderflügel bedeckt. Foto von Ingrid Ugussi Vukman. ",
-        "picture2text": "Die Unterseiten der Flügel unterscheiden sich nicht zwischen den Geschlechtern. Foto von Ingrid Ugussi Vukman."	
+		"familie": "Blaulinge",
+        "flugelspanne": "25-30 mm",
+        "flugezeit": "IV-X",
+        "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "brown",
 		"nameDeutsch": "Das Waldbrettspiel",
-        "scientificName": "<i>Pararge aegeria</i>",
+        "scientificName": "Pararge aegeria",
         "picture1": "Pictures/Pararge.jpg", 
 		"picture2": "Pictures/Pararge.jpg",
 		"familie": "Blaulinge",
         "flugelspanne": "25-30 mm",
-        "flugezeit": "IV-VI, VII-IX",
+        "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
-	"lebensweise":  "1. Die Weibchen legen ihre Eier einzeln an den Halmen der Futterpflanzen ab. </br> 2. Die geschlüpften Raupen brauchen im Sommer etwa 4 Wochen für ihre Entwicklung. </br> 3. Die Überwinterung erfolgt entweder als Raupe oder als Puppe. </br>",
-        "picture1text": "Das Waldbrettspiel . Sie besitzen braune bis dunkelbraune Flügel mit kleinen hell gelblich gerandeten, schwarzen und weiß gekernten Augenflecken. Die Flecken zeichnen sich bei den Weibchen deutlicher ab als bei den Männchen. ",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{
         "color": "multicolor",
 		"nameDeutsch": "Das Tagpfauenauge",
-        "scientificName": "<i>Inachis io</i>",
+        "scientificName": "Inachis io",
         "picture1": "Pictures/Inachis3.jpg",
 		"picture2": "Pictures/Inachis2.jpg",
         "familie": "Edelfalter (Nymphalidae)",
-        "flugelspanne": "32-45 mm",
+        "flugelspanne": "30-40 mm",
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Europa, Turkäei, Iran, Iraq, Caucasus, Transcaucasus",   
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Tagpfauenauge (Oberseite). Die  Flügelgrundfärbung ist rostrot. An jeder Vorder- und Hinterflügelspitze sind  schwarz, blau und gelb gefärbten Augenflecken gut erkennbar. Foto von Ingrid Ugussi Vukman",
-        "picture2text": "Tagpfauenauge (Unterseite). Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
 	
 	{ 
         "color": "multicolor",
 		"nameDeutsch": "Der Große Schillerfalter",
-        "scientificName": "<i>Apatura iris</i>",
+        "scientificName": "Apatura iris",
         "picture1": "Pictures/Iris.jpg", 
 		"picture2": "Pictures/Iris.jpg",
 		"familie": "Edelfalter (Nymphalidae)",
-        "flugelspanne": "55-70 mm",
+        "flugelspanne": "20-30 mm",
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Von Nord- und Ost-Spanien bis nach Skandinavien, Balkans, Griechenland und im europäischen Teil der Türkei.",  
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Großer Schillerfalter (Apatura iris)",
-        "picture2text": "Foto von <a href='https://de.dreamstime.com/purple-kaiserschmetterling-apatura-iris-der-grosse-schillerfalter-schmetterling-ili-velika-modra-preljevica-oder-image158713067'>Mario Krpan</a>"	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
     { 
         "color": "multicolor",
 		"nameDeutsch": "Der Grüne Zipfelfalter",
-        "scientificName": "<i>Callophrys rubi</i>",
+        "scientificName": "Callophrys rubi",
         "picture1": "Pictures/Rubi.jpg", 
-		"picture2": "Pictures/Rubi2.jpg",
+		"picture2": "Pictures/Rubi.jpg",
 		"familie": "Blaulinge",
-        "flugelspanne": "26-30 mm",
-        "flugezeit": "IV-X",
-        "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
-		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Während die Flügeloberseite graubraun ist, ist die Unterseite grasgrün mit einer weißen unterbrochenen Linie in der Postdiskalregion. Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Auf den Vorderflügeln der Männchen befindet sich ein Duftschuppenfleck. Die weiße Linie kann auch fehlen, wie beim Männchen auf diesem Foto. Foto von Ingrid Ugussi Vukman."	
-	},	
-	{ 
-        "color": "multicolor",
-		"nameDeutsch": "Das Schachbrett",
-        "scientificName": "<i>Melanargia galathea</i>",
-        "picture1": "Pictures/Melanargia.jpg", 
-		"picture2": "Pictures/Melanargia2.jpg",
-		"familie": "Edelfalter",
         "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
+	},	
+	{ 
+        "color": "multicolor",
+		"nameDeutsch": "Das Schachbrett",
+        "scientificName": "Melanargia galathea",
+        "picture1": "Pictures/Melanargia.jpg", 
+		"picture2": "Pictures/Melanargia2.jpg",
+		"familie": "Blaulinge",
+        "flugelspanne": "25-30 mm",
+        "flugezeit": "IV-X",
+        "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
+		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	
 	{ 
         "color": "yellow",
 		"nameDeutsch": "Der Schwalbenschwanz",
-        "scientificName": "<i>Papilio machaon</i>",
+        "scientificName": "Papilio machaon",
         "picture1": "Pictures/Macaone.jpg", 
 		"picture2": "Pictures/Macaone2.jpg",
-		"familie": " Ritterfalter",
+		"familie": "Papilionidae",
         "flugelspanne": "65–86 mm",
         "flugezeit": "IV-V, VII-VIII",
         "verbreitung": " Nordhalbkugel von Europa bis Asien und Japan.",  
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Ein Exemplar von <i>Papilio machaon</>: Er ist gelb und schwarz gemustert mit einer blauen Binde und roten Augenflecken an der hinteren Innenseite der Hinterflügel. Foto von <a href='https://de.dreamstime.com/schmetterling-griechenland-image110840287'>Thanasis Samaras</a>",
-        "picture2text": "Flugelunterseite. Die Hinterflügel beider Geschlechter haben ein Paar hervorstehender Schwänze, die dem Schmetterling seinen gemeinsamen Namen geben, der der Ähnlichkeit mit den gleichnamigen Vögeln ähnelt. Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Ein Exemplar von <i>Papilio machaon</>: Er ist gelb und schwarz gemustert mit einer blauen Binde und roten Augenflecken an der hinteren Innenseite der Hinterflügel.",
+        "picture2text": "Flugelunterseite. Die Hinterflügel beider Geschlechter haben ein Paar hervorstehender Schwänze, die dem Schmetterling seinen gemeinsamen Namen geben, der der Ähnlichkeit mit den gleichnamigen Vögeln ähnelt."	
 	},
 
     { 
         "color": "yellow",
 		"nameDeutsch": "Der Osterluzeifalter",
-        "scientificName": "<i>Zerynthia polyxena</i>",
+        "scientificName": "Zerynthia polyxena",
         "picture1": "Pictures/Zerynthia.jpg", 
 		"picture2": "Pictures/Zerynthia2.jpg",
-		"familie": " Ritterfalter",
+		"familie": "Papilionidae",
         "flugelspanne": "52-56 mm",
         "flugezeit": "III-VI",
         "verbreitung": " Mittel- und Südeuropa weit verbreitet und erstreckt sich über den gesamten Balkan bis in den Süden Kasachstans und des Urals.",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "<i>Zerynthia polyxena</i> - Rückenansicht Foto von <a href='https://de.dreamstime.com/s%C3%BCdlicher-girlandenschmetterling-zerynthia-polyxena-image120286172'>David Havel</a>",
-        "picture2text": " Seitenansicht. Foto von <a href='https://de.dreamstime.com/stockfoto-zerynthia-polyxena-image54584195'>Tiberiusahlean</a>"	
+        "picture1text": "<i>Zerynthia polyxena</i> - Rückenansicht",
+        "picture2text": " Seitenansicht."	
 	},	
 	
     { 
@@ -252,13 +252,13 @@ var description = [
         "scientificName": "Gonepteryx rhamni",
         "picture1": "Pictures/Zitronenfalter.jpg", 
 		"picture2": "Pictures/Zitronenfalter3.jpg",
-		"familie": "Weißlinge",
+		"familie": "Weißlinge (Pieridae)",
         "flugelspanne": "52-56 mm",
         "flugezeit": "III-VI",
         "verbreitung": " Mittel- und Südeuropa weit verbreitet und erstreckt sich über den gesamten Balkan bis in den Süden Kasachstans und des Urals.",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "<i>Zerynthia polyxena</i> - Rückenansicht",
+        "picture2text": " Seitenansicht."	
 	},
 	
 	{ 
@@ -272,8 +272,8 @@ var description = [
         "flugezeit": "IV-V, VII-VIII",
         "verbreitung": " Nordhalbkugel von Europa bis Asien und Japan.",  
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von <a href='https://de.dreamstime.com/knappes-swallowtail-iphiclides-podalirius-auf-jasminblumen-polen-image185174830'>Marek Mnich</a>",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Ein Exemplar von <i>Papilio machaon</>: Er ist gelb und schwarz gemustert mit einer blauen Binde und roten Augenflecken an der hinteren Innenseite der Hinterflügel.",
+        "picture2text": "Flugelunterseite. Die Hinterflügel beider Geschlechter haben ein Paar hervorstehender Schwänze, die dem Schmetterling seinen gemeinsamen Namen geben, der der Ähnlichkeit mit den gleichnamigen Vögeln ähnelt."	
 	},	
 	
 	{ 
@@ -281,14 +281,14 @@ var description = [
 		"nameDeutsch": "Der Rote Scheckenfalter",
         "scientificName": "Melitaea didyma",
         "picture1": "Pictures/Melitaea.jpg", 
-		"picture2": "Pictures/Melitaea2.jpg",
+		"picture2": "Pictures/Melitaea.jpg",
 		"familie": "Edelfalter (Nymphalidae)",
-        "flugelspanne": "30-40 mm",
+        "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Roter Scheckenfalter (Melitaea didyma). Foto von Ingrid Ugussi Vukman",
-        "picture2text": "Foto von <a href'https://de.dreamstime.com/stockfoto-melitaea-didyma-image58721598'>Willypd</a>"	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "orange",
@@ -296,13 +296,13 @@ var description = [
         "scientificName": "Euphydryas aurinia",
         "picture1": "Pictures/Aurinia.jpg", 
 		"picture2": "Pictures/Aurinia2.jpg",
-		"familie": "Edelfalter",
+		"familie": "Edelfalter (Nymphalidae)",
         "flugelspanne": "20-30 mm",
         "flugezeit": "V-VI, VII-IX",
         "verbreitung": "Von Nord- und Ost-Spanien bis nach Skandinavien, Balkans, Griechenland und im europäischen Teil der Türkei.",  
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br> 4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},
     
 	{ 
@@ -311,13 +311,13 @@ var description = [
         "scientificName": "Aglais urticae",
         "picture1": "Pictures/Urticae.jpg", 
 		"picture2": "Pictures/Urticae2.jpg",
-		"familie": "Edelfalter",
+		"familie": "Edelfalter (Nymphalidae)",
         "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von <a href = 'Foto von <a href = 'https://de.dreamstime.com/stockfoto-kleines-schildpatt-aglais-urticae-image66783691'>Natalia Zagaja</a>",
-        "picture2text": "Foto von <a href = 'https://de.dreamstime.com/stockfoto-kleines-schildpatt-aglais-urticae-image66783691'>Ger Bosma</a>"	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	
 	{ 
@@ -325,14 +325,14 @@ var description = [
 		"nameDeutsch": "Der Saumfleck-Perlmuttfalter",
         "scientificName": "Brenthis hecate",
         "picture1": "Pictures/Hecate.jpg", 
-		"picture2": "Pictures/Hecate2.jpg",
+		"picture2": "Pictures/Hecate.jpg",
 		"familie": "Edelfalter (Nymphalidae)",
-        "flugelspanne": "36-44 mm",
+        "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman",
-        "picture2text": "Foto von <a href = 'https://de.dreamstime.com/dubbelstipparelmoervlinder-doppel-stelle-fritillary-brenthis-hecat-image129032045'>Agami Photo Agency</a>"	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	
 	{ 
@@ -340,14 +340,14 @@ var description = [
 		"nameDeutsch": "Der Kleine Feuerfalter",
         "scientificName": "Lycaena phlaeas",
         "picture1": "Pictures/Phlaeas.jpg", 
-		"picture2": "Pictures/Phlaeas2.jpg",
+		"picture2": "Pictures/Phlaeas.jpg",
 		"familie": "Edelfalter (Nymphalidae)",
         "flugelspanne": "25-30 mm",
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "orange",
@@ -360,8 +360,8 @@ var description = [
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von Ingrid Ugussi Vukman.",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "orange",
@@ -374,8 +374,8 @@ var description = [
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von <a href= 'https://de.dreamstime.com/sleutelbloemvlinder-herzog-von-burgunder-fritillary-hamearis-lucin-image129034732'>Agami Photo Agency</a> ",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{ 
         "color": "orange",
@@ -388,8 +388,8 @@ var description = [
         "flugezeit": "IV-X",
         "verbreitung": " Europa, Nordafrika und Asien, in den Alpen steigt er bis zu einer Höhe von 2000 Metern",
 		"lebensweise":  "1. Eier werden auf Blätter von Hippocrepis und Coronilla gelegt.</br> 2. Die Raupe ernähren sich von Blättern und überwintert als Jungraupe. </br> 3. Im April des Folgejahres entwickelt sie sich dann weiter bis zur Verpuppung. Die Raupe lebt in Verbindung mit Ameisenarten von Myrmica, Lasius, Tapinoma und Plagiolepis.</br>4. Die Verpuppung findet oft unter Steinen, Laub oder Moos in der Nähe der Ameisenbauten statt.</br>",
-        "picture1text": "Foto von <a href= 'https://www.dreamstime.com/painted-lady-vanessa-cardui-close-up-image183503353'>Marek Mnich</a>",
-        "picture2text": "Foto von Ingrid Ugussi Vukman."	
+        "picture1text": "Männliches Exemplar von Lysandra bellargus: Die Flügeloberseiten haben eine intensiv blaue Farbe.",
+        "picture2text": "Ein Weibchen ist schokoladenbraun mit wenigen blauen Schuppen und orangefarbenen Flecken am Rand des Hinterflügels, die von blauen Schuppen begrenzt werden."	
 	},	
 	{
         "color": "white",

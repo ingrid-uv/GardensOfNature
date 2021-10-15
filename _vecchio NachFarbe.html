@@ -54,7 +54,7 @@
             <div class="allPictures">
                 <div class="responsive">
                     <div id="frame0" class="gallery">
-                        <a target="_blank" id="link0">
+                        <a target="_blank" href="Gruppe.html" id="link0">
                             <img id="img0" src="Pictures/Lysandra.jpg">
                         </a>
                         <button id="text0" class="butt1" onclick="selectColor('blue')">BLAUE GRUPPE</button>
@@ -63,7 +63,7 @@
 
                 <div class="responsive">
                     <div id="frame1" class="gallery">
-                        <a target="_blank" id="link1">
+                        <a target="_blank" href="Gruppe.html" id="link1">
                             <img id="img1" src="Pictures/Maniola.jpg">
                         </a>
                         <button id="text1" class="butt1" onclick="selectColor('brown')">BRAUNE GRUPPE</button>
@@ -72,7 +72,7 @@
 
                 <div class="responsive">
                     <div id="frame2" class="gallery">
-                        <a target="_blank" id="link2">
+                        <a target="_blank" href="Gruppe.html" id="link2">
                             <img id="img2" src="Pictures/Inachis3.jpg">
                         </a>
                         <button id="text2" class="butt1" onclick="selectColor('multicolor')">BUNTE GRUPPE</button>
@@ -81,7 +81,7 @@
 
                 <div class="responsive">
                     <div id="frame3" class="gallery">
-                        <a target="_blank" id="link3">
+                        <a target="_blank" href="Gruppe.html" id="link3">
                             <img id="img3" src="Pictures/Macaone.jpg">
                         </a>
                         <button id="text3" class="butt1" onclick="selectColor('yellow')">GELBE GRUPPE</button>
@@ -90,7 +90,7 @@
 
                 <div class="responsive">
                     <div id="frame4" class="gallery">
-                        <a target="_blank" id="link4">
+                        <a target="_blank" href="Gruppe.html" id="link4">
                             <img id="img4" src="Pictures/Melitaea.jpg">
                         </a>
                         <button id="text4" class="butt1" onclick="selectColor('orange')">ORANGE GRUPPE</button>
@@ -99,7 +99,7 @@
 
                 <div class="responsive">
                     <div id="frame5" class="gallery">
-                        <a target="_blank" id="link5">
+                        <a target="_blank" href="Gruppe.html" id="link5">
                             <img id="img5" src="Pictures/Parnassius.jpg">
                         </a>
                         <button id="text5" class="butt1" onclick="selectColor('white')">WEISSE GRUPPE</button>
@@ -108,7 +108,7 @@
 
                 <div class="responsive">
                     <div id="frame6" class="gallery">
-                        <a target="_blank" id="link6">
+                        <a target="_blank" href="Gruppe.html" id="link6">
                             <img id="img6" src="Pictures/Parnassius.jpg">
                         </a>
                         <button id="text6" class="butt1" onclick="selectColor('white')">WEISSE GRUPPE</button>
@@ -117,7 +117,7 @@
 
                 <div class="responsive">
                     <div id="frame7" class="gallery">
-                        <a target="_blank" id="link7">
+                        <a target="_blank" href="Gruppe.html" id="link7">
                             <img id="img7" src="Pictures/Parnassius.jpg">
                         </a>
                         <button id="text7" class="butt1" onclick="selectColor('white')">WEISSE GRUPPE</button>
@@ -160,10 +160,6 @@
 
                     document.getElementById("img" + j).src = data[i].picture;
                     document.getElementById("text" + j).innerHTML = data[i].nameDeutsch;
-
-                    document.getElementById("text" + j).onclick = "";
-
-
                     document.getElementById("link" + j).href = "Gruppe.html?i=" + data[i].id;
                     j++;
                 }

@@ -1,0 +1,30 @@
+var quote = [
+	{
+       
+		"text": "The Earth has music <br>for those who listen.",
+        "autor": "<i>George Santayana</i>"
+		
+	},
+
+    {
+       
+		"text": "And into the forest I go, <br>to lose my mind and find my soul.",
+        "autor": "<i>John Muir</i>"
+		
+	},
+
+    {
+       
+		"text": "By discovering nature, <br>you discover yourself.",
+        "autor": "<i>Maxime Lagacé</i>"
+		
+	},
+
+    {
+       
+		"text": "If you truly love nature, <br>you will find beauty everywhere. ",
+        "autor": "<i>Maxime Lagacé</i>"
+		
+	}
+
+]

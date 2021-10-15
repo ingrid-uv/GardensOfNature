@@ -15,7 +15,7 @@
 }
 
 .MenuItem {
-    float:left;   
+    float: left;
     padding: 7px 25px;
     border-radius: 25px/25px;
     height: 30px;
@@ -24,10 +24,49 @@
 
 .MenuItem_b {
     float: left;
-    padding: 7px 25px;  
+    padding: 7px 25px;    
     height: 30px;
     color: white;
 }
+
+
+.menuCenter {
+    margin: auto;
+    width: 900px;
+}
+
+@media screen and (max-width: 600px) {
+    .menuItem {
+      float: none;
+      margin:auto;
+      width: 100%;   
+      text-align: center;
+
+      
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menuItem_b {
+      float: none;
+      margin:auto;
+      width: 100%;   
+      text-align: center;
+      
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menuCenter {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Header {
+        height: 320px;
+    }
+  }
 
 .DropDown {
     background-color: rgb(162, 231, 195);
@@ -46,11 +85,6 @@
     display: block;
 }
 
-.menuCenter {
-    margin: auto;
-    width: 800px;
-
-}
 
 .linkText {
     color: black;
@@ -58,22 +92,3 @@
     text-decoration: none;
     display: block;
   }
-
-  @media screen and (max-width: 600px) {
-    .menuItem {
-      float: none;
-      margin:0px;
-      width: 20%;   
-      /* text-align: center;       */
-    }
-    .MenuItem_b{
-        float: none;
-        margin:auto;
-        width: 100%;   
-        /* text-align: center;       */
-      }
-    /* .DropDown {left: 20%;} */
-    .menuCenter {width: 300px;}
-    .Header {height: 320px;}
-
-}

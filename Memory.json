@@ -1,167 +1,167 @@
 
 	var memory = [{
-        "id": "1",
+        "id": "0",
 		"color": "blue",
 		"nameDeutsch": "der Himmelblauer Bläuling",
         "scientificName": "Lysandra bellargus",
         "picture": "PicturesMemory/Lysandra.jpg"
 	},
 	{ 
-        "id": "2",
+        "id": "1",
 		"color": "white",
 		"nameDeutsch": "der Rote Apollo",
         "scientificName": "Parnassius apollo",
         "picture": "PicturesMemory/Parnassius.jpg"
 	},
 	{ 
-        "id": "3",
+        "id": "2",
 		"color": "white",
 		"nameDeutsch": "der Baum-Weißling",
         "scientificName": "Aporia crataegi",
         "picture": "PicturesMemory/Aporia.jpg"
 	},
 	{ 
-        "id": "4",
+        "id": "3",
 		"color": "blue",
 		"nameDeutsch": "Cupido",
         "scientificName": "Everes",
         "picture": "PicturesMemory/Everes.jpg"
 	},
 	{ 
-        "id": "5",
+        "id": "4",
 		"color": "orange",
 		"nameDeutsch": "der Wegerich-Scheckenfalter",
         "scientificName": "Melitaea cinxia",
         "picture": "PicturesMemory/Cinxia.jpg"
 	},
 	{ 
-        "id": "6",
+        "id": "5",
 		"color": "brown",
 		"nameDeutsch": "das Wiener Nachtpfauenauge ",
         "scientificName": "Saturnia pyri",
         "picture": "PicturesMemory/Saturnia.jpg"
 	},
 	{ 
-        "id": "7",
+        "id": "6",
 		"color": "orange",
 		"nameDeutsch": "der Wegerich-Scheckenfalter",
         "scientificName": "Melitaea cinxia",
         "picture": "PicturesMemory/Cinxia.jpg"
 	},
 	{
-        "id": "8",
+        "id": "7",
 		"color": "blue",
 		"nameDeutsch": "der Himmelblauer Bläuling",
         "scientificName": "Lysandra bellargus",
         "picture": "PicturesMemory/Lysandra.jpg"
 	},
 	{ 
-        "id": "9",
+        "id": "8",
 		"color": "yellow",
 		"nameDeutsch": "der Osterluzeifalter",
         "scientificName": "Zerynthia polyxena",
         "picture": "PicturesMemory/Zerynthia2.jpg"
 	},
 	{ 
-        "id": "10",
+        "id": "9",
 		"color": "blue",
 		"nameDeutsch": "Cupido",
         "scientificName": "Everes",
         "picture": "PicturesMemory/Everes.jpg"
 	},
 	{ 
-        "id": "11",
+        "id": "10",
 		"color": "white",
 		"nameDeutsch": "der Rote Apollo",
         "scientificName": "Parnassius apollo",
         "picture": "PicturesMemory/Parnassius.jpg"
 	},
 	{ 
-        "id": "12",
+        "id": "11",
 		"color": "brown",
 		"nameDeutsch": "das Wiener Nachtpfauenauge ",
         "scientificName": "Saturnia pyri",
         "picture": "PicturesMemory/Saturnia.jpg"
 	},
 	{
-	"id": "13",
+	"id": "12",
 		"color": "blue",
 		"nameDeutsch": "der Alexis-Bläuling",
         "scientificName": "Glaucopsyche alexis",
         "picture": "PicturesMemory/Alexis1.jpg"
 	},
 	{ 
-        "id": "14",
+        "id": "13",
 		"color": "multicolor",
 		"nameDeutsch": "das Tagpfauenauge",
         "scientificName": "Inachis io",
         "picture": "PicturesMemory/Inachis3.jpg"
 	},
 	{ 
-        "id": "15",
+        "id": "14",
 		"color": "blue",
 		"nameDeutsch": "der Himmelblauer Bläuling",
         "scientificName": "Polyommatus icarus",
         "picture": "PicturesMemory/Couple.jpg"
 	},
 	{ 
-        "id": "16",
+        "id": "15",
 		"color": "white",
 		"nameDeutsch": "der Baum-Weißling",
         "scientificName": "Aporia crataegi",
         "picture": "PicturesMemory/Aporia.jpg"
 	},
 	{ 
-        "id": "17",
+        "id": "16",
 		"color": "orange",
 		"nameDeutsch": "der Wegerich-Scheckenfalter",
         "scientificName": "Melitaea cinxia",
         "picture": "PicturesMemory/Tyria.jpg"
 	},
 	{ 
-        "id": "18",
+        "id": "17",
 		"color": "multicolor",
 		"nameDeutsch": "der Alexis-Bläuling",
         "scientificName": "Glaucopsyche alexis",
         "picture": "PicturesMemory/Alexis1.jpg"
 	},
 	{ 
-        "id": "19",
+        "id": "18",
 		"color": "orange",
 		"nameDeutsch": "der Himmelblauer Bläuling",
         "scientificName": "Polyommatus icarus",
         "picture": "PicturesMemory/Couple.jpg"
 	},
 	{
-        "id": "20",
+        "id": "19",
 		"color": "multicolor",
 		"nameDeutsch": "der Himmelblauer Bläuling",
         "scientificName": "Lysandra bellargus",
         "picture": "PicturesMemory/Tyria.jpg"
 	},
 	{ 
-        "id": "21",
+        "id": "20",
 		"color": "yellow",
 		"nameDeutsch": "der Osterluzeifalter",
         "scientificName": "Zerynthia polyxena",
         "picture": "PicturesMemory/Zerynthia2.jpg"
 	},
 	{ 
-        "id": "22",
+        "id": "21",
 		"color": "yellow",
 		"nameDeutsch": "Cupido",
         "scientificName": "Everes",
         "picture": "PicturesMemory/Zitronenfalter.jpg"
 	},
 	{ 
-        "id": "23",
+        "id": "22",
 		"color": "yellow",
 		"nameDeutsch": "der Baum-Weißling",
         "scientificName": "Aporia crataegi",
         "picture": "PicturesMemory/Zitronenfalter.jpg"
 	},
 	{ 
-        "id": "24",
+        "id": "23",
 		"color": "multicolor",
 		"nameDeutsch": "das Tagpfauenauge",
         "scientificName": "Inachis io",
